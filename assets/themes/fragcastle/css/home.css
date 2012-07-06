@@ -1,0 +1,132 @@
+body {
+  overflow: hidden;
+}
+
+.entity { position: absolute; }
+
+.sky {
+  background: url(../images/sky-bg-tile.png);
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.grass {
+  background: #459649 url(../images/grass-bg-tile.png) repeat-x;
+  z-index: 10;
+  position: absolute;
+}
+
+.mountains {
+  background: url(../images/mountains-bg-tile.png) repeat-x;
+  position: absolute;
+  height: 60px;
+}
+
+.cloud1 {
+  background: url(../images/cloud1.png) no-repeat;
+  height: 80px;
+  width: 80px;
+}
+
+.cloud2 {
+  background: url(../images/cloud2.png) no-repeat;
+  height: 64px;
+  width: 94px;
+}
+
+.cloud3 {
+  background: url(../images/cloud3.png) no-repeat;
+  height: 48px;
+  width: 48px;
+}
+
+.cloud4 {
+  background: url(../images/cloud4.png) no-repeat;
+  height: 24px;
+  width: 24px;
+}
+
+.cloud5 {
+  background: url(../images/cloud5.png) no-repeat;
+  height: 48px;
+  width: 72px;
+}
+
+.cloud6 {
+  background: url(../images/cloud6.png) no-repeat;
+  height: 24px;
+  width: 36px;
+}
+
+.castle {
+  background: url(../images/frag_castle.png) no-repeat;
+  height: 126px;
+  width: 133px;
+}
+
+.logo {
+  background: url(../images/hill_with_logo_castle.png) no-repeat;
+  height: 266px;
+  width: 799px;
+}
+
+.hill {
+  background: url(../images/hill.png) no-repeat;
+  height: 200px;
+  width: 300px;
+}
+
+.grass-fg {
+  background: url(../images/grass-fg-tile.png) repeat-x;
+  position: absolute;
+  height: 200px;
+  z-index: 20;
+}
+
+.sun {
+  background: url(../images/sun.png) no-repeat;
+  height: 80px;
+  width: 80px;
+}
+
+.dragon {
+  background: url(../images/dragon.png) no-repeat;
+  height: 121px;
+  width: 122px;
+}
+
+.menu {
+  background: url(../images/menu-bg.png) repeat-x;
+  height: 64px;
+  width: 500px;
+}
+
+.menu .left {
+  background: url(../images/menu-left.png);
+  height: 64px;
+  width: 18px;
+  float: left;
+}
+
+.menu .right {
+  background: url(../images/menu-right.png);
+  height: 64px;
+  width: 18px;
+  float: left;
+}
+
+.menu ul.items, .menu ul.items li {
+  float: left;
+  height: 64px;
+  list-style: none;
+}
+
+.menu ul.items li a {
+  font-family: 'VT323', arial, serif;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}

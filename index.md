@@ -1,46 +1,56 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+layout: default
+title: Frag Castle Games!
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<link rel="stylesheet" href="/assets/themes/fragcastle/css/home.css" />
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+<div class="sky" data-layer="0" data-x="0" data-y="0">
+<div class="entity cloud4" data-layer="1" data-x="85%" data-y="140"></div>
+<div class="entity cloud3" data-layer="3" data-x="95%" data-y="160"></div>
+<div class="entity cloud1" data-layer="5" data-x="25%" data-y="80"></div>
+<div class="entity cloud5" data-layer="8" data-x="30%" data-y="50"></div>
+<div class="entity cloud6" data-layer="2" data-x="65%" data-y="90"></div>
+<div class="entity cloud2" data-layer="10" data-x="70%" data-y="100"></div>
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<div class="entity sun" data-layer="1" data-x="24%" data-y="50"></div>
+<div class="mountains" data-layer="9"></div>
+<div class="grass">
+  <div class="entity logo" data-layer="13" data-x="50%" data-y="-190"></div>
+  <div class="grass-fg" data-layer="20"></div>
+</div>
+</div>
+<div class="entity menu" data-layer="30" data-x="50%" data-y="400">
+  <div class="left"></div>
+  <ul class="items">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/about/">About Us</a>
+    </li>
+    <li>
+      <a href="/games/index.html">Games</a>
+    </li>
+    <li>
+      <a href="/contact/">Contact Us</a>
+    </li>
+    <li><a href="#"></a></li>
+  </ul>
+  <div class="right"></div>
+</div>
 
 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/themes/fragcastle/js/main.js"></script>
+<script type="text/javascript">
+  (function($) {
+    $(function() {
+      fragcastle.positionThings();
+      $(window).resize(fragcastle.positionThings);
+      $('.entity[class*="cloud"]').each(function(){
+        fragcastle.animateCloud(this);
+      });
+    });
+  })(jQuery);
+</script>
