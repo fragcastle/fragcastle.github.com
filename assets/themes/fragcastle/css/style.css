@@ -615,6 +615,23 @@ header {
 
 /* Flexslider
 =================================================================== */
+.hero-social {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.social-buttons {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.social-buttons li {
+	display: inline-block;
+	padding: 5px 8px;
+	line-height: 1;
+}
 
 /* Browser Resets
 =================================================================== */
