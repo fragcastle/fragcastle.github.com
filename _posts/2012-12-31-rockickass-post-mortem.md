@@ -35,7 +35,7 @@ _What would the merge animation look like? How would we progam it? How many diff
 
 ### Things that did not work
 
- **1. Life**. Both John and I have day jobs and families. Most of the work we did on Rock Kickass was done off hours, [3pm to 9pm was our average](https://github.com/fragcastle/rock-kickass/graphs/punch-card) work-day. There were more than a few times where I fell asleep at the keyboard while play-testing or doing artwork for RK.  John's Thanksgiving break was mostly sacrificed for the greater good.
+ **1. Life**. Both John and I have day jobs and families. Most of the work we did on Rock Kickass was done off hours, [3pm to 11pm was our average](https://github.com/fragcastle/rock-kickass/graphs/punch-card) work-day. There were more than a few times where I fell asleep at the keyboard while play-testing or doing artwork for RK.  John's Thanksgiving break was mostly sacrificed for the greater good.
 
  **2. Creative Commons Assets**. Early on we spent a lot of time trolling through CC art sites (because we were _terrified_ of attempting to do the art ourselves.) looking for tilesets, characters, anything. We realized that we were spinning too much on picking tilesets that looked good and fit the tone of the game we wanted to make.
  
