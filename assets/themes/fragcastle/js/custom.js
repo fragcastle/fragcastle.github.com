@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 
 	(function() {
 
-		$('[rel=image]').fancybox({
+		$('[rel=image], a[href$=".png"], a[href$=".jpg"], a[href$=".gif"]').fancybox({
 			type        : 'image',
 			openEffect  : 'fade',
 			closeEffect	: 'fade',
