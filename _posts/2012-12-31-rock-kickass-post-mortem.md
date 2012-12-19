@@ -1,9 +1,9 @@
 ---
 layout: post
 category : games
-tags : [github-gameoff, rockickass, impactjs]
+tags : [github-gameoff, rock-kickass, impactjs]
 author: jared
-published: false
+published: true
 ---
 
 ## Origins of Rock Kickass
@@ -38,7 +38,7 @@ _What would the merge animation look like? How would we progam it? How many diff
  **1. Life**. Both John and I have day jobs and families. Most of the work we did on Rock Kickass was done off hours, [3pm to 11pm was our average](https://github.com/fragcastle/rock-kickass/graphs/punch-card) work-day. There were more than a few times where I fell asleep at the keyboard while play-testing or doing artwork for RK.  John's Thanksgiving break was mostly sacrificed for the greater good.
 
  **2. Creative Commons Assets**. Early on we spent a lot of time trolling through CC art sites (because we were _terrified_ of attempting to do the art ourselves.) looking for tilesets, characters, anything. We realized that we were spinning too much on picking tilesets that looked good and fit the tone of the game we wanted to make.
- 
+
 There is a lot of great artwork freely available, but finding assets to fit your specific needs may be difficult.  If we ever attempt to develop a [JRPG](http://en.wikipedia.org/wiki/Japanese_role-playing_game), we may entertain some of the great CC licensed art.
 
 [![Zombie and skeleton image sprite](/assets/site/img/posts/rock-kickass-post-mortem/zombies_and_skeletons.png)](http://opengameart.org/content/zombies-skeletons)
