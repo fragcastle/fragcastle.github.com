@@ -12,7 +12,7 @@ tagline: Supporting tagline
         <!-- start: Slider -->
         <div class="slider-wrapper">
             <a href="http://fragcastle.com/rock-kickass" onclick="_gaq.push(['_trackEvent', 'Hero Actions', 'Play', 'Play Rock Kickass']);">
-                <img src="/assets/site/img/slide1.png" />
+                <img src="/assets/site/img/jumbotron/a.png" />
             </a>
         </div>
         <!-- end: Slider -->
