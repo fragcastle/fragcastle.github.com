@@ -6,11 +6,13 @@ author: john
 published: false
 ---
 
-If you haven't heard, [we completed v1 of our first game](http://fragcastle.com/games/2012/12/18/rock-kickass-post-mortem/), [Rock Kickass](fragcastle.com/rockkickass).  So far it's only been deployed to our website and is still under active development.  While we're still ironing out the game mechanics and story, we're also venturing into uncharted territory for us: App Stores!  While we don't have anything ready yet, we've started some preliminary work to get a feel for the options that we have.
+If you haven't heard, [we completed v1 of our first game](http://fragcastle.com/games/2012/12/18/rock-kickass-post-mortem/), [Rock Kickass](fragcastle.com/rock-kickass).  We're still ironing out the game mechanics and story so it's only deployed to our website.  We are also venturing into uncharted territory for us: App Stores!  While we don't have anything ready yet, we've started some preliminary work, testing the waters so to speak, for the options that we have.
 
 ## What can we do?
 
-Since Rock Kickass is a JavaScript / Canvas based game, we can't deploy it straight to Apple's App Store, Google Play, or possibly other stores.  We'll need to use a wrapper that ideally will give us access to the native features and performance as well as nice-to-have features like monetization and other integrations.
+Since Rock Kickass is a JavaScript / Canvas based game, our deployment story is a bit limited at the moment. Sure, we can pretty much wrap it up as-is and push it to the Windows8 Store, and to the lovely intarwebs, but we have zero mobile distribution channels.
+
+To hit these markets we'll need to use a wrapper that - ideally - will give us access to the native features and performance as well as nice-to-have features like leaderboards, social media gamification, monetization and other integrations.
 
 Some of the tools we've found are:
 
@@ -25,13 +27,15 @@ Some of the tools we've found are:
 
 ![CocoonJS](/assets/site/img/posts/impactjs-with-cocoonjs/cocoonjs.png)
 
-To start with, we've picked CocoonJS.  I'd heard the [Lost Decade Games](http://www.lostdecadegames.com/) guys talk about it before so it seemed as good a place to start as any.  (FYI, we are not affiliated with CocoonJS)
+To start with, we've picked CocoonJS.  I'd heard the [Lost Decade Games](http://www.lostdecadegames.com/) guys talk about it before so it seemed as good a place to start as any.  (FYI, we are not affiliated with CocoonJS, or ImpactJS)
 
 According to Ludei:
 
 > CocoonJS is a platform that allows developers to deploy, accelerate, and monetize their JavaScript HTML5 games on the App store and Google Play.
 
-The way it works is that you zip up your JS app and CocoonJS will act as a translation layer that converts canvas operations to native GPU calls on the respective platforms.  There are two main servics that they offer; their [Launcher](http://wiki.ludei.com/cocoonjs:launcherapp) mobile apps and their [Cloud Compiler](http://wiki.ludei.com/cocoonjs:cloud).  The Launcher apps run on your android or iOS devices, will download your app via FTP and compile it on-the-fly.  The Cloud Compiler is the real deal that does the same thing as the launcher, but the result is an APK for Android and an XCode project for iOS.
+So.... What does that mean?
+
+The way it works is that you zip up your JS app and CocoonJS will act as a translation layer that converts canvas operations to native GPU calls on the respective platforms.  There are two main services that they offer; their [Launcher](http://wiki.ludei.com/cocoonjs:launcherapp), and [Cloud Compiler](http://wiki.ludei.com/cocoonjs:cloud).  The Launcher apps run on your android or iOS devices, will download your app via FTP and compile it on-the-fly.  The Cloud Compiler is the real deal that does the same thing as the launcher, but the result is an APK for Android and an XCode project for iOS - yeah, you can't get away from xcode if you want to make an iOS app.
 
 ## The bad
 
@@ -43,7 +47,9 @@ The last knock against the service is that they are currently free, but their pr
 
 ## The good
 
-Despite the confusing website and sparse documentation, I was able to get a complete version of our game working with both their Launcher and Cloud Compiler!  While we haven't released the game yet, take my word that the technology is very impressive and the game performs well on an iPhone 5 and Nexus 7.  It is a wonderful feeling to see your app installed on your tablet, and be able to demo your game to your friends and family anytime, anywhere!
+Despite the confusing website and sparse documentation, I was able to get a complete version of our game working with both their Launcher and Cloud Compiler!  Like I said, we're still working through this new tech but so far it is very impressive and the game performs well on an iPhone 5 and Nexus 7.
+
+It is a wonderful feeling to see your app installed on your tablet, and be able to demo your game to your friends and family anytime, anywhere!
 
 ## Can I try too?
 
