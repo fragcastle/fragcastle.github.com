@@ -3,7 +3,7 @@ layout: post
 category : tech
 tags : [impactjs, cocoonjs, rock-kickass]
 author: john
-published: false
+published: true
 ---
 
 If you haven't heard, [we completed v1 of our first game](http://fragcastle.com/games/2012/12/18/rock-kickass-post-mortem/), [Rock Kickass](fragcastle.com/rock-kickass).  We're still ironing out the game mechanics and story so it's only deployed to our website.  We are also venturing into uncharted territory for us: App Stores!  While we don't have anything ready yet, we've started some preliminary work, testing the waters so to speak, for the options that we have.
