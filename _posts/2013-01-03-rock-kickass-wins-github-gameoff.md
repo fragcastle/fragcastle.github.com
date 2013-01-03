@@ -10,10 +10,17 @@ In late October [GitHub announed that they would be hosting their first Game Off
 
 ## We won!
 
-[![Rock Kickass won the GitHub Game Off](/assets/site/img/posts/rock-kickass-wins-github-gameoff/winning.png)](http://fragcastle.com/rock-kickass/)
+<div align="center">
+  <a href="http://fragcastle.com/rock-kickass/" title="Play Rock Kickass!!!">
+    <img src="/assets/site/img/posts/rock-kickass-wins-github-gameoff/winning.png" alt="Rock Kickass Celebrating" />
+  </a>
+  <br />&nbsp;
+</div>
 
 Well, technically we were one of 5 winners in the 2012 GitHub Game Off, but I know [some people](https://twitter.com/leereilly/status/275048977144086528) might still call Rock Kickass "The Winner" :D
 
 ## Thank you!
 
 Again, thank you to GitHub for hosting the Game Off, the judges for taking time out of their busy lives, and to all the people who supported and continue to support us!
+
+p.s. to celebrate, we've created some hi-res desktop wallpapers of the image above. You can download a [1920x1200 version](/assets/site/img/posts/rock-kickass-wins-github-gameoff/rock-kickass-celebration-1920-1200.png) and [1920x1080 version](/assets/site/img/posts/rock-kickass-wins-github-gameoff/rock-kickass-celebration-1920-1080.png). Thanks for all the support, comments and critiques, keep 'em coming!
