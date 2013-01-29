@@ -28,6 +28,11 @@ tagline: Supporting tagline
             </ul>
           </div>
         </div>
+        <div class="row">
+            <div class="span8">
+                <div class="fb-like" data-href="http://www.facebook.com/FragCastle" data-send="true" data-width="450" data-show-faces="true" data-font="arial"></div>
+            </div>
+        </div>
         <!-- start: Row -->
         <div class="row">
             <div class="span8">
