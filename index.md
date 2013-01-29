@@ -30,7 +30,8 @@ tagline: Supporting tagline
         </div>
         <div class="hero-social">
             <div class="span8">
-                <div class="fb-like" data-href="http://www.facebook.com/FragCastle" data-send="true" data-width="450" data-show-faces="false" data-font="arial"></div>
+                <div class="fb-like" data-href="http://www.facebook.com/FragCastle" data-send="true" data-width="450" data-show-faces="false" data-font="arial">
+                </div>
             </div>
         </div>
         <!-- start: Row -->
