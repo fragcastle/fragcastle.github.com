@@ -3,7 +3,7 @@ layout: post
 category : events
 tags : [pax, learning, rock-kickass]
 author: jared
-published: false
+published: true
 ---
 
 It's been a little over a week since our debut at PAX East 2013 in the Indie Mini-booth and John and I have had a lot of time to reflect on what we learned from our experience there. I thought it would be helpful to give our view on what worked and what didn't.
