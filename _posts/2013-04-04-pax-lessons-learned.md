@@ -8,6 +8,8 @@ published: true
 
 It's been a little over a week since our debut at PAX East 2013 in the Indie Mini-booth and John and I have had a lot of time to reflect on what we learned from our experience there. I thought it would be helpful to give our view on what worked and what didn't.
 
+<img src="/assets/site/img/posts/pax-lessons-learned/2013-03-23_14-45-54_182.jpg" style="border-radius: 15px; margin: 15px 0px;" />
+
 ### Gameplay, Gameplay, Gameplay
 "This is PAX man! Nobody wants to see _cutscenes_!" Straight from the horses mouth. This was the first excited gamer that came to our booth to play our alpha of Rock Kickass. Our gameplay at that point consisted of the first few levels which are pretty cutscene heavy.
 
