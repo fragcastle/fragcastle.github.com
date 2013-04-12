@@ -218,7 +218,6 @@ a {
 /* #Lists
 ================================================== */
 	ul, ol { margin: 0; }
-	ul { list-style: none outside; }
 	ol { list-style: decimal; }
 	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
 	ul.square { list-style: square outside; }
@@ -229,6 +228,10 @@ a {
 	ul ul li, ul ol li,
 	ol ol li, ol ul li {}
 
+ul {
+	list-style: circle outside!important;
+	margin: 0px 0px 15px 35px;
+}
 
 
 /* Header
