@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Final Frontier: First Contact
-header: Final Frontier: First Contact (Alpha)
+title: 'Final Frontier: First Contact'
+header: 'Final Frontier: First Contact (Alpha)'
 group: navigation
 ---
 {% include JB/setup %}
