@@ -21,8 +21,9 @@
     <meta property="og:image" content=""/>
     <!-- end: Facebook Open Graph -->
 
-    <link href="{{ ASSET_PATH }}/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -43,7 +44,7 @@
         &nbsp;
       </div>
       <div class="row">
-        <div class="span2 offset2">
+        <div class="span2 offset1">
           <div class="well no-bg thick-border box right-only text-right branding">
             <i class="icon-shield large"></i>
             <div class="title">
@@ -51,35 +52,33 @@
             </div>
 
             <div class="social-media">
-              <a href="://twitter.com/fragcastle">
+              <a href="http://twitter.com/fragcastle">
                 <i class="icon-twitter"></i>
               </a>
-              <a href="://github.com/fragcastle">
+              <a href="http://github.com/fragcastle">
                 <i class="icon-github"></i>
               </a>
-              <a href="://plus.google.com/100742122293567187710/posts">
+              <a href="http://plus.google.com/100742122293567187710/posts">
                 <i class="icon-google-plus"></i>
               </a>
             </div>
 
             <div class="navigation">
               <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="/archive.html">Blog</a></li>
                 <li><a href="/games.html">Games</a></li>
-                <li><a href="://github.com/fragcastle" target="_blank">Open Source</a></li>
+                <li><a href="http://github.com/fragcastle" target="_blank">Open Source</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <div id="content" class="span8">
+        <div id="content" class="span9">
           {{ content }}
         </div>
       </div>
     </div>
-    <script src="{{ ASSET_PATH }}/js/jquery-1.8.2.js"><!-- --></script>
-    <script src="{{ ASSET_PATH }}/js/bootstrap.js"><!-- --></script>
-    <script src="{{ ASSET_PATH }}/js/fancybox.js"><!-- --></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script defer="defer" src="{{ ASSET_PATH }}/js/custom.js"><!-- --></script>
     {% include JB/analytics %}
   </body>
