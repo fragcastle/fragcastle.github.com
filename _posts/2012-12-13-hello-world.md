@@ -3,6 +3,7 @@ layout: post
 category : company
 tags : [fragcastle, intro, welcome]
 author: jared
+teaser_image: http://placehold.it/390x300
 ---
 {% include JB/setup %}
 

@@ -4,6 +4,7 @@ category : games
 tags : [github-gameoff, rock-kickass]
 author: john
 published: true
+teaser_image: http://placehold.it/390x300
 ---
 
 In late October [GitHub announed that they would be hosting their first Game Off](https://github.com/blog/1303-github-game-off)!  The contestants had one month to develop a game that would run in the browser and would be based loosely around some Git-related themes.  So we decided to drop everything for the game that we were working on and [go full steam ahead on a new game](http://fragcastle.com/games/2012/12/18/rock-kickass-post-mortem/) solely for the Game Off.  And...

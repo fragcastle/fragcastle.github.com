@@ -4,6 +4,7 @@ category : games
 tags : [github-gameoff, rock-kickass, impactjs]
 author: jared
 published: true
+teaser_image: http://placehold.it/390x300
 ---
 
 ## Origins of Rock Kickass

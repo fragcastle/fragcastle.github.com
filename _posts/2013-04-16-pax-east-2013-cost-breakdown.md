@@ -4,6 +4,7 @@ category : events
 tags : [pax, indie-game-dev]
 author: john
 published: true
+teaser_image: http://placehold.it/390x300
 ---
 
 
