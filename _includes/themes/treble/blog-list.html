@@ -1,0 +1,75 @@
+<div class="pages" id="page-blog">
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h4 class="line-divider">Blog</h4>
+            <h1>Recent Blog Posts</h1>
+<!--             <div class="row">
+                <div class="span8 offset2">
+                    <div class="input-append">
+                      <input class="span5" id="appendedInputButton" type="text" placeholder="Search Blog">
+                      <button class="btn btn-primary sicon-search sicon-white" type="button"><i>Search</i></button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Sub menu -->
+            <nav class="submenu">
+                <ul>
+                    <!-- <li>
+                        <a href="/archive.html">All</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blog/blog.html">Technology</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blog/blog.html">Design</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blog/blog.html">Future trends</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blog/blog.html">Photography</a>
+                    </li>
+                    <li>
+                        <a href="./pages/blog/blog.html">Other</a>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+        <!-- End Header -->
+
+        <!-- Article -->
+        <article>
+            <ul class="thumbnails">
+            {% for post in site.posts limit:6 %}
+                <li class="span4">
+                    {% if post.teaser_image %}
+                        <a href="{{ BASE_PATH }}{{ post.url }}">
+                            <img src="{{ post.teaser_image }}" alt="{{ post.title }}" height="300" width="390" />
+                        </a>
+                    {% endif %}
+                    <h5>
+                        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a><br />
+                        <small>{{ post.date }}</small>
+                    </h5>
+                    <p class="smallFontBy08">{{post.content | strip_html | truncatewords 20}}</p>
+                    <div class="read-more">
+                        <a href="{{ BASE_PATH }}{{ post.url }}">Read More...</a>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </article>
+        <!-- End Article -->
+
+        <!-- Footer -->
+        <footer>
+            <!-- More blog posts -->
+            <div class="show-more-cube">
+                <a href="/archive.html"><span>All Blog<br/>Posts</span></a>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+</div>

@@ -1,0 +1,72 @@
+{% include themes/treble/top-nav.html %}
+
+{% assign author = site.authors[page.author] %}
+<div class="pages" id="page-blog-list">
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h4 class="line-divider">Bit by bit: The Frag Castle Blog</h4>
+            <h1>{{ page.title }}</h1>
+<!--             <div class="row">
+                <div class="span8 offset2">
+                    <div class="input-append">
+                      <input class="span5" id="appendedInputButton" type="text" placeholder="Search Blog">
+                      <button class="btn btn-primary sicon-search sicon-white" type="button"><i>Search</i></button>
+                    </div>
+                </div>
+            </div> -->
+        </header>
+        <!-- End Header -->
+
+        <div class="row-fluid">
+            <div class="span8 blog-details">
+                <!-- Article -->
+                <article>
+                    <!-- Blog image -->
+
+                    {% if post.large_image %}
+                        <img src="{{ post.large_image }}" alt="{{ post.title }}" />
+                    {% endif %}
+
+                    <!-- Blog title -->
+                    <h5>
+                        <small>Posted By <a href="{{author.web}}">{{ author.display_name }}</a>, {{ page.date | date: "%d" }}, {{ page.date | date: "%B, %Y" }}, in {{page.tags}}</small>
+                    </h5>
+
+                    {{ content }}
+
+                </article>
+                <!-- End Article -->
+
+                {% include JB/comments %}
+            </div>
+            <div class="span4 blog-list-right">
+                <!-- Latest blog posts block -->
+                <div class="block">
+                    <h6>Lates blog posts</h6>
+                    <ul class="simple-link-list">
+                        {% for post in site.posts limit:6 %}
+                            <li>
+                                <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <!-- Tags -->
+                <div class="block">
+                    <h6>Categories</h6>
+                    <nav class="submenu">
+                        {% assign tags_list = page.tags %} {% include JB/tags_list %}
+                    </nav>
+                </div>
+
+                <!-- Twitter -->
+                <div class="block">
+                    <h6>Twitter</h6>
+                    <div class="twitterfeed"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
