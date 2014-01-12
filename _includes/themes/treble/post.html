@@ -1,10 +1,12 @@
+{% include themes/treble/top-nav.html %}
+
 {% assign author = site.authors[page.author] %}
 <div class="pages" id="page-blog-list">
     <div class="container">
         <!-- Header -->
         <header>
             <h4 class="line-divider">Bit by bit: The Frag Castle Blog</h4>
-            <h1>Blog Posts</h1>
+            <h1>{{ page.title }}</h1>
 <!--             <div class="row">
                 <div class="span8 offset2">
                     <div class="input-append">
@@ -21,11 +23,13 @@
                 <!-- Article -->
                 <article>
                     <!-- Blog image -->
-                    <img src="http://placehold.it/900x450" alt="Treble">
+
+                    {% if post.large_image %}
+                        <img src="{{ post.large_image }}" alt="{{ post.title }}" />
+                    {% endif %}
 
                     <!-- Blog title -->
                     <h5>
-                        {{ page.title }}<br/>
                         <small>Posted By <a href="{{author.web}}">{{ author.display_name }}</a>, {{ page.date | date: "%d" }}, {{ page.date | date: "%B, %Y" }}, in {{page.tags}}</small>
                     </h5>
 
@@ -41,24 +45,11 @@
                 <div class="block">
                     <h6>Lates blog posts</h6>
                     <ul class="simple-link-list">
-                        <li>
-                            <a href="blog_1.html" class="active">Blog post title 1</a>
-                        </li>
-                        <li>
-                            <a href="blog_2.html">Blog post title 2</a>
-                        </li>
-                        <li>
-                            <a href="blog_3.html">Blog post title 3</a>
-                        </li>
-                        <li>
-                            <a href="blog_4.html">Blog post title 4</a>
-                        </li>
-                        <li>
-                            <a href="blog_5.html">Blog post title 5</a>
-                        </li>
-                        <li>
-                            <a href="blog_6.html">Blog post title 6</a>
-                        </li>
+                        {% for post in site.posts limit:6 %}
+                            <li>
+                                <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                        {% endfor %}
                     </ul>
                 </div>
 
@@ -66,26 +57,7 @@
                 <div class="block">
                     <h6>Categories</h6>
                     <nav class="submenu">
-                        <ul>
-                            <li>
-                                <a href="./blog.html" class="active">All</a>
-                            </li>
-                            <li>
-                                <a href="./blog.html">Technology</a>
-                            </li>
-                            <li>
-                                <a href="./blog.html">Design</a>
-                            </li>
-                            <li>
-                                <a href="./blog.html">Future trends</a>
-                            </li>
-                            <li>
-                                <a href="./blog.html">Photography</a>
-                            </li>
-                            <li>
-                                <a href="./blog.html">Other</a>
-                            </li>
-                        </ul>
+                        {% assign tags_list = page.tags %} {% include JB/tags_list %}
                     </nav>
                 </div>
 

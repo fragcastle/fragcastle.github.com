@@ -3,11 +3,14 @@ layout: post
 category : company
 tags : [fragcastle, intro, welcome]
 author: jared
-teaser_image: http://placehold.it/390x300
+teaser_image: /assets/site/img/posts/hello-world/us.png
+large_image: /assets/site/img/posts/hello-world/us.png
 ---
 {% include JB/setup %}
 
 So this is our new site, what do you think? It a ton better than the landing page that once greeted all you fine gamers (both of you).
+
+<img src="/assets/site/img/posts/hello-world/us.png" style="border-radius: 15px; margin: 15px 0px;" />
 
 ## Overview
 

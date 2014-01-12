@@ -5,7 +5,7 @@ $(document).ready(function(){
     var pageHeight = $(window).height();
     var pageWidth = $(window).width();
     var navigationHeight = $("#navigation").outerHeight();
-    
+
     /*
     *   ON RESIZE, check again
     */
@@ -13,34 +13,36 @@ $(document).ready(function(){
         pageWidth = $(window).width();
         pageHeight = $(window).height();
     });
-    
+
     /*
     *   ON LOAD
     */
 
     // Fix navigation.
-    $('#navigation').fixedonlater();
-    
+    if( $('.root').size() ) {
+        $('#navigation').fixedonlater();
+
+        //Scroll spy and scroll filter
+        $('#main-menu').onePageNav({
+            currentClass: 'active',
+            changeHash: true,
+            scrollOffset: navigationHeight - 10,
+            scrollThreshold: 0.5,
+            scrollSpeed: 750,
+            filter: '',
+            easing: 'swing',
+         });
+    }
+
     //Initialize scroll so if user droped to other part of page then home page.
     $(window).trigger('scroll');
-   
+
     // Carousel "Quote slider" initialization.
     $('#quote-slider').carousel({
         interval: 20000
-    })
+    });
 
-    //Scroll spy and scroll filter
-    $('#main-menu').onePageNav({
-        currentClass: 'active',
-        changeHash: false,
-        scrollOffset: navigationHeight - 10,
-        scrollThreshold: 0.5,
-        scrollSpeed: 750,
-        filter: '',
-        easing: 'swing',
-     });
-    
-    
+
     // Paralax initialization.
     // Exclude for mobile.
     if(pageWidth > 980){
@@ -49,21 +51,21 @@ $(document).ready(function(){
         $('#page-features').parallax("0%", 0.07);
         $('#page-twitter').parallax("0%", 0.1);
     }
-    
+
     //Emulate touch on table/mobile touchstart.
     if(typeof(window.ontouchstart) != 'undefined') {
         var touchElements = [".social-icons a", ".portfolio-items li", ".about-items .item"];
-        
+
         $.each(touchElements, function (i, val) {
             $(val).each(function(i, obj) {
                 $(obj).bind('click', function(e){
-                
+
                     if($(this).hasClass('clickInNext')){
                         $(this).removeClass('clickInNext');
                     } else {
                         e.preventDefault();
                         e.stopPropagation();
-                        
+
                         $(this).mouseover();
                         $(this).addClass('clickInNext');
                     }
@@ -82,20 +84,20 @@ $(document).ready(function(){
     $('#page-welcome .logo a').click(function(){
         $('html, body').animate({
             scrollTop: $( $.attr(this, 'href') ).offset().top - navigationHeight + 4
-            
+
         }, 800);
-        
+
         //Fix jumping of navigation.
         setTimeout(function() {
             $(window).trigger('scroll');
         }, 900);
-        
+
         return false;
     });
-    
-    
+
+
     /*
-    *   PAGE | Welcome 
+    *   PAGE | Welcome
     *
     *   Initialize slider for welcome page H1 message.
     */
@@ -147,43 +149,43 @@ $(document).ready(function(){
         onMixStart: null,
         onMixEnd: null
     });
-    
+
     /*
-    *   PAGE | Twitter 
-    *   
+    *   PAGE | Twitter
+    *
     *   CONFIGURE FIRST
     *
     *   Pull latest tweets from user.
     *   Configuration: /plugins/twitter/index.php
-    
+
     $('.twitterfeed').tweet({
         modpath: 'plugins/twitter/',
         username: 'TheGridelicious',
         count: 3
     });
     */
-    
+
     //Prepare markup for twitter feed and carousel. Alow twitter to load. 1s, load time.
     setTimeout(function() {
         var myCarousel = $("#twitterfeed-slider");
         myCarousel.append("<ol class='carousel-indicators'></ol>");
-        
+
         myCarousel.find('.tweet_list').addClass("carousel-inner");
         myCarousel.find('.tweet_list li').addClass('item').first().addClass("active");
-            
-        var indicators = myCarousel.find(".carousel-indicators"); 
+
+        var indicators = myCarousel.find(".carousel-indicators");
         myCarousel.find(".carousel-inner").children(".item").each(function(index) {
-            (index === 0) ? 
-            indicators.append("<li data-target='#twitterfeed-slider' data-slide-to='"+index+"' class='active'></li>") : 
+            (index === 0) ?
+            indicators.append("<li data-target='#twitterfeed-slider' data-slide-to='"+index+"' class='active'></li>") :
             indicators.append("<li data-target='#twitterfeed-slider' data-slide-to='"+index+"'></li>");
         });
-        
+
         //After creating markup, start carousel.
        $('#twitterfeed-slider').carousel({
             interval: 5000,
             pause: "hover"
         });
-        
+
     }, 1000);
 });
 
@@ -214,14 +216,14 @@ $( document ).ajaxComplete(function() {
     $(".loading").delay(1000).slideUp(500, function(){
         $(this).remove();
     });
-    
-    
+
+
     // Portfolio details - close.
     $(".close-portfolio span").click(function(e) {
         $(".portfolio-item-details").delay(500).slideUp(500, function(){
             $(this).remove();
         });
-        
+
         window.location.hash= "!";
         return false;
     });

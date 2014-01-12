@@ -4,7 +4,8 @@ category : events
 tags : [pax, indie-game-dev]
 author: john
 published: true
-teaser_image: http://placehold.it/390x300
+teaser_image: /assets/site/img/posts/pax-east-2013-cost-breakdown/megabooth-logo.png
+large_image: /assets/site/img/posts/pax-east-2013-cost-breakdown/megabooth-logo.png
 ---
 
 
