@@ -18,6 +18,13 @@ $(document).ready(function(){
     *   ON LOAD
     */
 
+    $('#player').each(function() {
+        var $this = $(this);
+        var data = $this.data();
+
+        $this.html('<iframe src="'+ data.url +'" width="500" height="70" style="border: none;"></iframe>');
+    });
+
     // Fix navigation.
     if( $('.root').size() ) {
         $('#navigation').fixedonlater();
