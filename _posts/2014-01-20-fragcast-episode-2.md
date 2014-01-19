@@ -19,7 +19,7 @@ Jared and John talk about amazing and wonderful things such as:
  * not knowing how long they've been in business
  * Rock Kickass is coming along, working on Art and game-design, check out [RockKickass.com](http://www.rockkickass.com) for updates
  * Gamemaker isn't too good about letting you know when you've reached its license limit
- * RK Runner's active installs have gone up 600% since the first of the year
+ * RK Runner's [active installs have gone up 600%](/assets/site/img/posts/fragcast-episode-2/install-numbers.png) since the first of the year
  * We're working to update and improve RK Runner, something we've been meaning to do for a while
  * We share a negative review, and later, talk about how we try to handle critiques and avoid flying off the handle
  * John mentions a [nes emulator for the dreamcast](http://www.theisozone.com/downloads/dreamcast/emulators/nesterdc-nes-emulator-for-the-dreamcast/)
