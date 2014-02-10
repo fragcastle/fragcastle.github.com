@@ -30,7 +30,7 @@
 
                     <!-- Blog title -->
                     <h5>
-                        <small>Posted By <a href="{{author.web}}">{{ author.display_name }}</a>, {{ page.date | date: "%d" }}, {{ page.date | date: "%B, %Y" }}, in {{page.tags}}</small>
+                        <small>Posted By <a href="{{author.web}}">{{ author.display_name }}</a>, {{ page.date | date: "%d" }}, {{ page.date | date: "%B, %Y" }}, in {{page.category}}</small>
                     </h5>
 
                     {{ content }}
@@ -55,7 +55,7 @@
 
                 <!-- Tags -->
                 <div class="block">
-                    <h6>Categories</h6>
+                    <h6>Tags</h6>
                     <nav class="submenu">
                         {% assign tags_list = page.tags %} {% include JB/tags_list %}
                     </nav>
