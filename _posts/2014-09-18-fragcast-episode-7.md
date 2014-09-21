@@ -4,11 +4,11 @@ category : fragcast
 tags : [fragcast, podcast, game-development]
 author: jared
 published: true
-teaser_image: /assets/site/img/posts/fragcast-episode-7/were-back-baby.jpg
-large_image: /assets/site/img/posts/fragcast-episode-7/were-back-baby.jpg
+teaser_image: /assets/site/img/posts/fragcast-episode-7/were-back-baby.JPG
+large_image: /assets/site/img/posts/fragcast-episode-7/were-back-baby.JPG
 ---
 
-<img src="/assets/site/img/posts/fragcast-episode-7/were-back-baby.jpg" style="border-radius: 15px; margin: 15px 0px;" />
+<img src="/assets/site/img/posts/fragcast-episode-7/were-back-baby.JPG" style="border-radius: 15px; margin: 15px 0px;" />
 
 FragCast is a weekly podcast where the founders of Frag Castle Games talk about the latest progress on their games, the video game industry, pop culture and the ups and downs of running a super-small, lean startup.
 
