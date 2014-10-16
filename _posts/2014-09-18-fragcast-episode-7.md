@@ -21,7 +21,7 @@ FragCast is a weekly podcast where the founders of Frag Castle Games talk about 
 <div id="player" data-url="http://media.signalleaf.com/player/FragCast/541e558a9dc8d4020074effd/" width="560" height="160"></div>
 
 ### In This Episode
-We go a little longer than usual but this episode is full of good things: Jared, John and Keith discuss
+We go a little longer than usual but this episode is full of good things: Jared and John discuss
 
 - our experiences with post-goal depression, and why we stopped working on our game Rock Kickass after we submitted to Boston Festival of Indie Games
 - working on a new game: Death Hole is helping us get back into the groove and overcome the PGD
