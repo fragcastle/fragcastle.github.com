@@ -1,0 +1,8 @@
+article a {
+  color: #336699;
+  font-weight: bold;
+}
+
+article a.btn {
+  font-weight: normal;
+}

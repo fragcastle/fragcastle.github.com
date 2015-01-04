@@ -33,7 +33,15 @@
                         <small>Posted By <a href="{{author.web}}">{{ author.display_name }}</a>, {{ page.date | date: "%d" }}, {{ page.date | date: "%B, %Y" }}, in {{page.category}}</small>
                     </h5>
 
+                    {% if page.podcast %}
+                      {% include themes/treble/episode-embed.html %}
+                    {% endif %}
+
                     {{ content }}
+
+                    {% if page.podcast %}
+                      {% include themes/treble/episode-legal.html %}
+                    {% endif %}
 
                 </article>
                 <!-- End Article -->

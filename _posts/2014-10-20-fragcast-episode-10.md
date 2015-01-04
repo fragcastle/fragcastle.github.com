@@ -19,20 +19,20 @@ FragCast is a weekly podcast where the founders of Frag Castle Games talk about 
 ### In This Episode
 Jared and John talk about
 
-﻿- Jareds cat is attacking him throughout this episode.
-- Jared spent the week playing rock kickass and fixed a bug with the collision system. He blogged about it here.﻿
-- We discuss why we have a custom collision system in Rock Kickass, and how unitys box colliders are "bugged"
-- John talks about his week working with getting the iOS version of RK Runner updated so that it is the same as our android release.
-- Humble bundle is featuring all web games (jared actually reads the entire list - which makes for fantastic radio)
-- We talk about webgl as a deployment target and how the tech details behind that, and how useful it will be to ship demos early on
-- Jared rants for a bit about how Nicholas Cage has lost a step and how awful the movie "Next" was
-- John and Jared compare their scores in Desert Golf - yes, really.
+ - Jareds cat is attacking him throughout this episode.
+ - Jared spent the week playing rock kickass and fixed a bug with the collision system. He blogged about it here.﻿
+ - We discuss why we have a custom collision system in Rock Kickass, and how unitys box colliders are "bugged"
+ - John talks about his week working with getting the iOS version of RK Runner updated so that it is the same as our android release.
+ - Humble bundle is featuring all web games (jared actually reads the entire list - which makes for fantastic radio)
+ - We talk about webgl as a deployment target and how the tech details behind that, and how useful it will be to ship demos early on
+ - Jared rants for a bit about how Nicholas Cage has lost a step and how awful the movie "Next" was
+ - John and Jared compare their scores in Desert Golf - yes, really.
 
 
 
 ### Currently Playing?
-- Jared has been playing Broforce
-- John has been playing counterstrike nexon zombies and hates it. HATES it. He's back into Modern Warfare 2 this week.
+ - Jared has been playing Broforce
+ - John has been playing counterstrike nexon zombies and hates it. HATES it. He's back into Modern Warfare 2 this week.
 
 #### Legal Beagle Stuff
 Opening Song by [RoccoW](https://soundcloud.com/roccow) - ["Create A Song in A Day Challenge #1"](https://soundcloud.com/roccow/create-a-song-in-a-day). This song is shared under a [Attribution Share A like 3.0 Unported (CC BY-SA 3.0) license](http://creativecommons.org/licenses/by-sa/3.0/). We sampled a 20 second clip from the middle of his awesome track to open our podcast. RoccoW does not in any way endorse our podcast. The opinions and viewpoints expressed by the Hosts of FragCast are theres and theres alone.
