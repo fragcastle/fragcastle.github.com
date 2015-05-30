@@ -3,12 +3,12 @@ layout: post
 category : fragcast
 tags : [fragcast, podcast, game-development]
 author: john
-published: false
+published: true
 podcast: true
-youtube_id: u3KWgZ62k4U
-signalleaf_id: 54c31f1cda56d803007eaccd
-teaser_image: http://i2.ytimg.com/vi/u3KWgZ62k4U/mqdefault.jpg
-large_image: http://i2.ytimg.com/vi/u3KWgZ62k4U/mqdefault.jpg
+youtube_id: ZNam7P89cEE
+signalleaf_id: 553ce80bfbc6e20300234f6f
+teaser_image: http://i2.ytimg.com/vi/ZNam7P89cEE/mqdefault.jpg
+large_image: http://i2.ytimg.com/vi/ZNam7P89cEE/mqdefault.jpg
 ---
 
 ### In This Episode
