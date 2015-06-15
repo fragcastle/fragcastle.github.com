@@ -26,6 +26,7 @@ Jared and John talk about
 - Art:
 
 ![Awesome gif by STFU people](http://www.capybaragames.com/images/stf_steam.gif)
+
 ### Currently Playing?
 
 - Jared is playing [Planetary Annihilation](http://www.uberent.com/pa/)
