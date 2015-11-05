@@ -13,7 +13,7 @@ In late October [GitHub announed that they would be hosting their first Game Off
 ## We won!
 
 <div align="center">
-  <a href="http://fragcastle.com/rock-kickass/" title="Play Rock Kickass!!!">
+  <a href="http://rockkickass.com/" title="Check out the progress on Rock Kickass">
     <img src="/assets/site/img/posts/rock-kickass-wins-github-gameoff/winning.png" alt="Rock Kickass Celebrating" />
   </a>
   <br />&nbsp;
